@@ -1,0 +1,44 @@
+{
+  "coord": {
+    "lon": 84.9482,
+    "lat": 56.4846
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 294.39,
+    "feels_like": 294.11,
+    "temp_min": 292.77,
+    "temp_max": 294.39,
+    "pressure": 990,
+    "humidity": 59
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4.5,
+    "deg": 179,
+    "gust": 5.96
+  },
+  "clouds": {
+    "all": 13
+  },
+  "dt": 1656481025,
+  "sys": {
+    "type": 2,
+    "id": 2032314,
+    "country": "RU",
+    "sunrise": 1656451980,
+    "sunset": 1656515636
+  },
+  "timezone": 25200,
+  "id": 1489425,
+  "name": "Tomsk",
+  "cod": 200
+}

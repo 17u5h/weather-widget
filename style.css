@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f8ffff;
+}
+
+.container {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-widget {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background: #000358;
+  background: linear-gradient(32deg, #000358 0%, #1c5594 69%, #89b619 100%);
+}
+
+.weather {
+  display: flex;
+  gap: 5px;
+}
+.weather__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+}
+.weather__temperature {
+  font-size: 42px;
+  font-weight: 600;
+}
+.weather__icon {
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input-block__input-and-ok {
+  display: flex;
+  gap: 8px;
+}
+
+.suggest {
+  border: none;
+  border-radius: 3px;
+  background-color: #e0e0e8;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.suggest:hover {
+  background-color: #fff;
+}
+.suggest__suggest-popup {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #777;
+  width: 180px;
+}
+.suggest__suggest-popup_hidden {
+  display: none;
+}
+.suggest__suggest-popup-item {
+  font-size: 12px;
+  user-select: none;
+  height: 16px;
+}
+.suggest__suggest-popup-item:hover {
+  background-color: #ddd;
+}
+
+.button {
+  background-color: #7ca2d0;
+  border: none;
+  border-radius: 3px;
+  color: #032459;
+  padding: 1px 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
