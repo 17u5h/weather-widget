@@ -10,3 +10,6 @@
 
 ключ хранится в содержимом константы APP_ID, в файле index.js
 
+![image](https://user-images.githubusercontent.com/102058870/191312413-b7142b76-b998-45d0-93b7-0ae5657a4d4a.png)
+
+![image](https://user-images.githubusercontent.com/102058870/191312537-f15b84f0-e88a-4d92-8efb-a302fa05770c.png)
